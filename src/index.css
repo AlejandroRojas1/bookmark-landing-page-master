@@ -9,12 +9,9 @@
 
 body {
   min-height: 100dvh;
+  max-width: 100dvw;
 }
 
-h1, h2, h3, h4 {
-  text-wrap: balance;
-}
-
-p {
-  text-wrap: pretty;
+section {
+  margin-left: 165px;
 }

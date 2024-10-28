@@ -11,7 +11,7 @@ const Header = () => {
                     <a className="navbar-brand" href="#">
                         <img src="/assets/logo-bookmark.svg" alt="bookmark" width="35" height="30" className="w-100" />
                     </a>
-                    <span className="w-50 d-flex fle justify-content-evenly align-items-center">
+                    <span className="w-50 d-flex justify-content-evenly align-items-center">
                         <ul className='navbar-nav w-75 d-flex flex-row justify-content-evenly'>
                             <li className='nav-item'>
                                 <a className='nav-link' href='#'>FEATURES</a>
