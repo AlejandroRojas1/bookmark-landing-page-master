@@ -1,0 +1,54 @@
+:root {
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+
+section {
+    .descriptionContainer {
+        .descriptionInfo {
+            color: var(--Grayish-Blue);
+            font-size: 18px;
+            margin-right: 1rem;
+        }
+        .button {
+            background-color: var(--Soft-Blue);
+            border: 2px solid var(--Soft-Blue);
+            color: white;
+            &:hover {
+                cursor: pointer;
+                color: var(--Soft-Blue);
+                background-color: white;
+            }
+        }
+        button:nth-of-type(2) {
+            background-color: var(--Grayish-Blue);
+            border: 2px solid var(--Grayish-Blue);
+            &:hover {
+                color: var(--Grayish-Blue);
+                background-color: white;
+            }
+        }
+    }
+    div:nth-of-type(2) {
+        width: 75%;
+        position: relative;
+        top: -2rem;
+        left: 2rem;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+        .bgIllustration {
+            background-color: var(--Soft-Blue);
+            min-height: 80%;
+            min-width: 80%;
+            position: absolute;
+            bottom: -3rem;
+            right: 0;
+        }
+    }
+}
