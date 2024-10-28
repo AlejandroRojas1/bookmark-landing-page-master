@@ -8,6 +8,12 @@
 .header {
     margin: 0 165px;
 
+    ul li a {
+        &:hover {
+            color: var(--Soft-Red);
+        }
+    }
+
     .button {
         background-color: var(--Soft-Red);
         border: 1px solid var(--Soft-Red);
