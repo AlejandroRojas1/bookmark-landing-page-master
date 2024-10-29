@@ -1,0 +1,58 @@
+:root {
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+.featuresContainer {
+    margin-top: 4.5rem;
+    padding-top: 3rem;
+    p {
+        color: var(--Grayish-Blue);
+    }
+    ul {
+        height: 5.5rem;
+        min-width: 50%;
+        li {
+            a {
+                height: 100%;
+                color: var(--Grayish-Blue);
+                font-size: 20px;
+                &:hover {
+                    color: var(--Soft-Red);
+                }
+                &:focus {
+                    color: var(--Very-Dark-Blue);
+                }
+            }
+        }
+    }
+    .featuresContainer {
+        margin-right: 160px;
+        position: relative;
+        div:nth-of-type(1) {
+            div {
+                background-color: var(--Soft-Blue);
+                min-height: 100%;
+                min-width: 50%;
+                position: absolute;
+                bottom: -4rem;
+                left: 0;
+                z-index: -99;
+            }
+        }
+        div:nth-of-type(2) {
+            font-size: 14px;
+            max-width: 40%;
+            button {
+                background-color: var(--Soft-Blue);
+                border: 2px solid var(--Soft-Blue);
+                color: white;
+                &:hover {
+                    background-color: white;
+                    color: var(--Soft-Blue);
+                }
+            }
+        }
+    }
+}
