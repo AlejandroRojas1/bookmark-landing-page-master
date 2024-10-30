@@ -4,32 +4,47 @@
     --Grayish-Blue: hsl(229, 8%, 60%);
     --Very-Dark-Blue: hsl(229, 31%, 21%);
 }
+
 .featuresContainer {
     margin-top: 4.5rem;
     padding-top: 3rem;
+
     p {
         color: var(--Grayish-Blue);
     }
+
+
     ul {
-        height: 5.5rem;
+        height: 100%;
         min-width: 50%;
+        border-bottom: 1px solid var(--Grayish-Blue);
+        margin-bottom: 5rem;
+        padding: 0;
         li {
-            a {
-                height: 100%;
+            list-style-type: none;
+            height: 100%;
+            padding: 2rem 0;
+            span {
                 color: var(--Grayish-Blue);
                 font-size: 20px;
+                padding: 0 2rem 2rem;
                 &:hover {
+                    cursor: pointer;
                     color: var(--Soft-Red);
                 }
+
                 &:focus {
                     color: var(--Very-Dark-Blue);
+                    border-bottom: 4px solid var(--Soft-Red);
                 }
             }
         }
     }
+
     .featuresContainer {
         margin-right: 160px;
         position: relative;
+
         div:nth-of-type(1) {
             div {
                 background-color: var(--Soft-Blue);
@@ -41,13 +56,16 @@
                 z-index: -99;
             }
         }
+
         div:nth-of-type(2) {
             font-size: 14px;
             max-width: 40%;
+
             button {
                 background-color: var(--Soft-Blue);
                 border: 2px solid var(--Soft-Blue);
                 color: white;
+
                 &:hover {
                     background-color: white;
                     color: var(--Soft-Blue);
