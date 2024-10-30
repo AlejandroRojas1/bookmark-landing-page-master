@@ -57,7 +57,7 @@ const Features = () => {
             <div className={`${styles.featuresContainer} d-flex justify-content-end p-0 mt-4`}>
                 <div>
                     <div className={`rounded-end-pill`}></div>
-                    <img src={features[featuresRender as FeaturesKeys].img} width={450} height={285} />
+                    <img src={features[featuresRender as FeaturesKeys].img} width={430} height={285} />
                 </div>
                 <div className={`p-5 pe-0 mx-5 me-0 align-self-end`}>
                     <h1 className='text-start'>{features[featuresRender as FeaturesKeys].title}</h1>

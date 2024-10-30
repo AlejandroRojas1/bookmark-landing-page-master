@@ -1,3 +1,4 @@
+import Browsers from "./components/Browsers"
 import Features from "./components/Features"
 import Header from "./components/Header"
 import Info from "./components/Info"
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Info />
       <Features />
+      <Browsers />
     </>
   )
 }
