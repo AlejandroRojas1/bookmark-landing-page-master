@@ -11,7 +11,7 @@ const Faq = () => {
             <div className={`${styles.acordionContainer} accordion accordion-flush`} id="accordionFlushExample">
                 <div className="accordion-item">
                     <h3 className="accordion-header">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <button className="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             What is Bookmark?
                         </button>
                     </h3>
@@ -22,7 +22,7 @@ const Faq = () => {
                 </div>
                 <div className="accordion-item">
                     <h3 className="accordion-header">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <button className="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                             How can I request a new browser?
                         </button>
                     </h3>
@@ -35,7 +35,7 @@ const Faq = () => {
                 </div>
                 <div className="accordion-item">
                     <h3 className="accordion-header">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <button className="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                             Is there a mobile app?
                         </button>
                     </h3>
@@ -47,7 +47,7 @@ const Faq = () => {
                 </div>
                 <div className="accordion-item">
                     <h3 className="accordion-header">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <button className="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                         What about other Chromium browsers?
                         </button>
                     </h3>
@@ -57,6 +57,8 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
+
+            <button className={`${styles.button} rounded px-3 py-2`}>More Info</button>
         </section>
     )
 }

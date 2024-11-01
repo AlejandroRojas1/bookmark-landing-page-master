@@ -5,9 +5,11 @@
 }
 
 .faqContainer {
-    margin: 15rem auto;
+    margin: 15rem auto 10rem auto;
     max-width: 40%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .faqDescription {
         color: var(--Grayish-Blue);
         margin-bottom: 3rem;
@@ -16,9 +18,9 @@
     .acordionContainer {
         border-top: 1px solid rgba(201, 196, 196, 0.411);
         border-bottom: 1px solid rgba(201, 196, 196, 0.411);
+        width: 100%;
         div {
             background-color: white;
-
             button {
                 font-weight: 500;
 
@@ -34,6 +36,18 @@
             .textAcordionItem {
                 color: var(--Grayish-Blue);
             }
+        }
+    }
+    .button {
+        margin-top: 3rem;
+        max-width: 125px;
+        background-color: var(--Soft-Blue);
+        border: 2px solid var(--Soft-Blue);
+        color: white;
+        &:hover {
+            cursor: pointer;
+            color: var(--Soft-Blue);
+            background-color: white;
         }
     }
 }
