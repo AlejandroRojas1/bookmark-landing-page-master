@@ -12,7 +12,7 @@ const Info = () => {
                 <button className={`${styles.button} rounded px-5 py-3 me-4`}>Get it on Chrome</button>
                 <button className={`${styles.button} rounded px-5 py-3 `}> Get it on Firefox</button>
             </div>
-            <div>
+            <div className={styles.illustrationInfo}>
                 <img src="/assets/illustration-hero.svg" width={575} height={385}/>
                 <div className={`${styles.bgIllustration} rounded-start-pill`}></div>
             </div>

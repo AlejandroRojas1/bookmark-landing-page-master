@@ -27,7 +27,7 @@ const features: Record<FeaturesKeys, FeaturesTypes> = {
 }
 
 const Features = () => {
-    const [featuresRender, setfeaturesRender] = useState<string>('speedySearching')
+    const [featuresRender, setfeaturesRender] = useState<string>('simpleBookmarking')
 
     const handleChangeFeature = (feature: string): void => {
         setfeaturesRender(feature)

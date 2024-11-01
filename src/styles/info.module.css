@@ -29,7 +29,7 @@ section {
             }
         }
     }
-    div:nth-of-type(2) {
+    .illustrationInfo {
         width: 75%;
         position: relative;
         top: -2rem;

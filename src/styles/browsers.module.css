@@ -1,9 +1,25 @@
+:root {
+    --Grayish-Blue: hsl(229, 8%, 60%);
+}
+
 .container{
     margin-top: 10rem;
     margin-inline: 170px;
+    margin-bottom: 5rem;
+    max-height: 500px !important;
+    p {
+        color: var(--Grayish-Blue);
+    }
     .cardsContainer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        min-height: 440px;
+        div:first-child {
+            align-self: flex-start;
+        }
+        div:nth-child(2) {
+            align-self: center;
+        }
+        div:last-child {
+            align-self: flex-end;
+        }
     }
 }
