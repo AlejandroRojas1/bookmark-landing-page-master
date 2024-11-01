@@ -25,7 +25,7 @@ const operaInfo: BrowsersInfo = {
 const Browsers = () => {
   return (
     <section className={`${styles.container} text-center`}>
-        <h1>Download the extension</h1>
+        <h2>Download the extension</h2>
         <p className="w-50 m-auto mt-3">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
         got a favourite you’d like us to prioritize.</p>
         <div className={`${styles.cardsContainer} d-flex flex-row justify-content-evenly h-100`}>

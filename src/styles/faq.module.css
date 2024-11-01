@@ -1,0 +1,39 @@
+:root {
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+}
+
+.faqContainer {
+    margin: 15rem auto;
+    max-width: 40%;
+
+    .faqDescription {
+        color: var(--Grayish-Blue);
+        margin-bottom: 3rem;
+    }
+
+    .acordionContainer {
+        border-top: 1px solid rgba(201, 196, 196, 0.411);
+        border-bottom: 1px solid rgba(201, 196, 196, 0.411);
+        div {
+            background-color: white;
+
+            button {
+                font-weight: 500;
+
+                &:hover {
+                    color: var(--Soft-Red);
+                }
+                &:focus {
+                    background-color: white;
+                    box-shadow: none;
+                    color: black;
+                }
+            }
+            .textAcordionItem {
+                color: var(--Grayish-Blue);
+            }
+        }
+    }
+}
