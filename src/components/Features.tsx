@@ -59,7 +59,7 @@ const Features = () => {
                     <div className={`rounded-end-pill`}></div>
                     <img src={features[featuresRender as FeaturesKeys].img} width={430} height={285} />
                 </div>
-                <div className={`p-5 pe-0 mx-5 me-0 align-self-end`}>
+                <div className={`p-5 pe-0 mx-5 me-0 align-self-end position-relative`}>
                     <h1 className='text-start'>{features[featuresRender as FeaturesKeys].title}</h1>
                     <p className={`pb-3 text-start`}>
                         {features[featuresRender as FeaturesKeys].description}
