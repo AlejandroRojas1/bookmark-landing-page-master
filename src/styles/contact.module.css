@@ -8,7 +8,7 @@
 .contactContainer {
     background-color: var(--Soft-Blue);
     margin: 0;
-    width: 100dvw;
+    width:auto;
     height: 20rem;
     color: white;
 

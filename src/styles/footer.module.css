@@ -1,0 +1,48 @@
+:root {
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+    --Soft-Red: hsl(0, 94%, 66%);
+}
+
+.footerContainer {
+    padding: 1rem 0;
+    background-color: var(--Very-Dark-Blue);
+
+    nav {
+        margin: 0 165px;
+        background-color: var(--Very-Dark-Blue);
+
+        div {
+            span:first-child {
+                min-width: 80%;
+            }
+
+            span {
+                ul {
+                    li {
+                        font-size: 13px;
+                        font-weight: 400;
+
+                        a {
+                            color: white;
+                            padding: 0;
+
+                            &:hover {
+                                color: var(--Soft-Red);
+                            }
+                        }
+                    }
+                }
+            }
+
+            span:last-child {
+                a {
+                    svg {
+                        &:hover path {
+                            fill: var(--Soft-Red);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

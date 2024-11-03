@@ -4,6 +4,7 @@ import Faq from "./components/Faq"
 import Features from "./components/Features"
 import Header from "./components/Header"
 import Info from "./components/Info"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Browsers />
       <Faq />
       <Contact />
+      <Footer />
     </>
   )
 }
