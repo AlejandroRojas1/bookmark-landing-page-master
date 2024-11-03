@@ -31,53 +31,31 @@
                 background-color: var(--Soft-Red);
             }
 
-            .inputContainer {
-                padding: 2px;
-                position: relative;
+            .mail {
+                border: 2px solid var(--Soft-Blue);
 
-                .insInvalid {
-                    display: none;
+                &:focus {
+                    outline: none;
+                    border-color: var(--Soft-Red);
                 }
 
-                .invalidEmail {
-                    margin: 0;
-                    padding: 0 .5rem;
-                    font-style: italic;
-                    font-size: 12px;
-                    text-align: start;
-
-                    img {
-                        position: absolute;
-                        top: 20%;
-                        right: .5rem;
-                    }
-                }
-
-                .mail {
-                    border: 2px solid transparent;
-                    &:focus {
-                        outline: none;
-                        border-color: var(--Soft-Red);
-                    }
-
-                    &::placeholder {
-                        color: var(--Grayish-Blue);
-                        font-size: 14px;
-                    }
+                &::placeholder {
+                    color: var(--Grayish-Blue);
+                    font-size: 14px;
                 }
             }
+        }
 
-            .button {
-                height: 50%;
-                background-color: var(--Soft-Red);
-                border: 2px solid var(--Soft-Red);
-                color: white;
+        .button {
+            height: 50%;
+            background-color: var(--Soft-Red);
+            border: 2px solid var(--Soft-Red);
+            color: white;
 
-                &:hover {
-                    cursor: pointer;
-                    color: var(--Soft-Red);
-                    background-color: white;
-                }
+            &:hover {
+                cursor: pointer;
+                color: var(--Soft-Red);
+                background-color: white;
             }
         }
     }

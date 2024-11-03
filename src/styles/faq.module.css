@@ -27,6 +27,9 @@
                 &:hover {
                     color: var(--Soft-Red);
                 }
+                &:active {
+                    background-color: none;
+                }
                 &:focus {
                     background-color: white;
                     box-shadow: none;
